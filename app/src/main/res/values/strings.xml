@@ -1,0 +1,48 @@
+<resources>
+    <string name="app_name">SegundoApp</string>
+    <string name="titulo">Mi primera aplicacion movil</string>
+    <string name="nombre">Cual es tu nombre?</string>
+    <string name="limpiar">Limpiar</string>
+    <string name="pulsar">Pulsame</string>
+    <string name="cerrar">Cerrar</string>
+    <string name="alumno">Wilibaldo Watson Guillen</string>
+    <string name="matricula">22050318</string>
+    <string name="materia">Desarrollo de aplicaciones moviles</string>
+    <string name="practicaimc">Practica IMC</string>
+    <string name="altura">Aqui tu altura</string>
+    <string name="peso">Aqui tu peso</string>
+
+
+    <string-array name="array_conversiones">
+        <item>Pesos Mexicanos - Dolares Americanos</item>
+        <item>Pesos Mexicanos - Dolares Canadienses</item>
+        <item>Pesos mexicanos - Euros</item>
+        <item>Dolares Americanos - Pesos Mexicanos</item>
+        <item>Dolares Canadienses - Pesos Mexicanos</item>
+        <item>Euros - Pesos Mexicanos</item>
+    </string-array>
+
+    <string name="dolara">19.75</string>
+    <string name="dolarc">14.75</string>
+    <string name="euro">22.02</string>
+    <string name="resultado">El resultado se mostrara aqui</string>
+    <string name="calcular">Calcular</string>
+    <string name="grados">Grados</string>
+    <string name="cantidadgrados">Captura la cantidad de grados:</string>
+    <string name="celsius_a_fahrenheit">Celsius a Fahrenheit</string>
+    <string name="fahrenheit_a_celsius">Fahrenheit a Celsius</string>
+    <string name="convertidor">Convertidor de divisas</string>
+
+    <string name="domicilio">Av. del MAr 1200</string>
+    <string name="ciudad">Mazatlan, Sinaloa</string>
+    <string name="marca">Toyota</string>
+    <string name="cliente">Nombre del cliente</string>
+    <string name="folio">Num. Folio</string>
+    <string name="des">Descripcion del automovil</string>
+    <string name="precio">Valor del automovil</string>
+    <string name="po">Porcentaje de pago inicial</string>
+    <string name="plazos">Plazos</string>
+    <string name="pmensual">Pago mensual</string>
+    <string name="pinicial">Pago inicial</string>
+    <string name="tfin">Total a financiar</string>
+</resources>
