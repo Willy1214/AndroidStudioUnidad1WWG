@@ -14,6 +14,7 @@ class MenuActivity : AppCompatActivity() {
     private lateinit var crvIMC : CardView
     private lateinit var crvGrados : CardView
     private lateinit var crvCotizacion : CardView
+    private lateinit var crvTerminar : CardView
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         enableEdgeToEdge()
@@ -34,6 +35,7 @@ class MenuActivity : AppCompatActivity() {
         crvIMC = findViewById(R.id.crvImc) as CardView
         crvGrados = findViewById(R.id.crvGrados) as CardView
         crvCotizacion = findViewById(R.id.crvCotizacion) as CardView
+        crvTerminar = findViewById(R.id.crvTerminar) as CardView
     }
 
     private fun eventosClick(){
@@ -56,6 +58,10 @@ class MenuActivity : AppCompatActivity() {
         crvCotizacion.setOnClickListener({
             var intent = Intent(this,ClienteActivity::class.java)
             startActivity(intent)
+        })
+
+        crvTerminar.setOnClickListener({
+            finish()
         })
     }
 }
